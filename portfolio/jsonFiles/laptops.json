@@ -1,0 +1,129 @@
+{
+	"recordsInLaptops" : [
+	{
+		"id" : 1,
+		"name" : "Apple macbook 2016",
+		"img" : "apple-macbook-2016-nw-g02.jpg",
+		"price" : "1149",
+		"description" : "Fantastically light design; Rich and vibrant display; Faster performance than predecessor; Very good battery life",
+		"details" : {
+			"cpu" : "1.2GHz Core m5",
+			"os" : "OS X El Capitan",
+			"ram" : "8GB",
+			"hd" : "512GB SSD",
+			"displaySize" : "12in."
+		}
+	},
+	{
+		"id" : 2,
+		"name" : "Apple macbook air",
+		"img" : "apple-macbook-air-13inch-w-g04.jpg",
+		"price" : "979",
+		"description" : "Excellent battery life; Strong overall performance; Blazing flash storage; Comfortable keyboard",
+		"details" : {
+			"cpu" : "1.6-GHz Intel Core i5-5250U",
+			"os" : "OS X Yosemite",
+			"ram" : "4GB",
+			"hd" : "128GB SSD",
+			"displaySize" : "13.3in."
+		}
+	},
+	{
+		"id" : 3,
+		"name" : "Apple macbook pro",
+		"img" : "apple-macbook-pro-13inch-g01.jpg",
+		"price" : "1449",
+		"description" : "Compact design; Very bright and colorful display; Improved butterfly keyboard; Excellent battery life; Impressive stereo speakers",
+		"details" : {
+			"cpu" : "2-GHz Intel 6th Gen Core i5",
+			"os" : "macOS Sierra",
+			"ram" : "8GB",
+			"hd" : "256GB PCIe-based Flash Storage",
+			"displaySize" : "12in."
+		}
+	},
+	{
+		"id" : 4,
+		"name" : "Asus Chromebook",
+		"img" : "asus-chromebook-c302c-nw-g01.jpg",
+		"price" : "499.99",
+		"description" : "Speedy performance; Sleek lightweight design; Bright 1080p display; Solid battery life",
+		"details" : {
+			"cpu" : "Intel Core m3 6Y30",
+			"os" : "Google Chrome",
+			"ram" : "4GB",
+			"hd" : "64GB eMMC",
+			"displaySize" : "12.5in."
+		}
+	},
+	{
+		"id" : 5,
+		"name" : "Asus Zenbook",
+		"img" : "asus-zenbook-ux330ua-nw-g05.jpg",
+		"price" : "729",
+		"description" : "Long battery life; Affordable price; Bright, colorful display; Accurate audio",
+		"details" : {
+			"cpu" : "Intel Core i5-7200U",
+			"os" : "Windows 10 Home",
+			"ram" : "8GB",
+			"hd" : "256GB SSD",
+			"displaySize" : "13.3in."
+		}
+	},
+	{
+		"id" : 6,
+		"name" : "Rog gl552",
+		"img" : "rog-gl552-lead.jpg",
+		"price" : "1049",
+		"description" : "Strong full HD gaming performance; Bright and accurate matte display; USB 3.1 Type-C Port; Speedy 7,200 RPM HDD",
+		"details" : {
+			"cpu" : "2.6-GHz Intel Core i7 6700 HQ CPU",
+			"os" : "Windows 10 Home",
+			"ram" : "16GB",
+			"hd" : "1TB SSD",
+			"displaySize" : "15.6in."
+		}
+	},
+	{
+		"id" : 7,
+		"name" : "Samsung Ativ Book",
+		"img" : "samsung-ativ-book-9-2014-g01.jpg",
+		"price" : "1199",
+		"description" : "Bright and colorful UHD screen; Attractive aluminum design; Lots of ports; Solid speakers; Good overall performance",
+		"details" : {
+			"cpu" : "2.6-GHz Intel Core i7 6700HQ CPU",
+			"os" : "Windows 10",
+			"ram" : "8GB",
+			"hd" : "256GB SSD",
+			"displaySize" : "15.6in."
+		}
+	},
+	{
+		"id" : 8,
+		"name" : "Samsung ativ book 9 plus",
+		"img" : "samsung-ativ-book-9-plus-g01.jpg",
+		"price" : "1224.95",
+		"description" : "Gorgeous, elegant design; Bright Quad-HD+ touch screen; Powerful speakers; Solid, backlit keyboard",
+		"details" : {
+			"cpu" : "1.6-GHz Intel Core i5-4200U",
+			"os" : "Windows 8.1",
+			"ram" : "4GB",
+			"hd" : "128GB SSD",
+			"displaySize" : "13.3in."
+		}
+	},
+	{
+		"id" : 9,
+		"name" : "Samsung Chromebook 2",
+		"img" : "samsung-chromebook-2-g01.jpg",
+		"price" : "249",
+		"description" : "Solid performance; Professional, comfortable design; Responsive touchpad",
+		"details" : {
+			"cpu" : "2.58GHz Intel Celeron N2840 processor",
+			"os" : "Google Chrome",
+			"ram" : "2GB",
+			"hd" : "16GB",
+			"displaySize" : "11.6in."
+		}
+	}
+]}

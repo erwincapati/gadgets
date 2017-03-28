@@ -1,0 +1,47 @@
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+  background-color: #d9d9d9;
+}
+
+.navbar-nav  li a:hover {
+  color: #1abc9c !important;
+}
+
+.mainBanner{
+  background-image: url("../img/bg1.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center; 
+}
+
+.h2Laptop,
+.h2Phone{
+  color: #fff;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.laptopPart{
+	background-color: #000;
+}
+
+.phonePart{ background-color: #595959; }
+
+.perLaptopHolder{
+  color: #fff;
+	background-color: #595959;
+}
+
+.perPhoneHolder{
+  color: #fff;
+  background-color: #000;
+}
+
+.captionh4{
+  color: #fff;
+}

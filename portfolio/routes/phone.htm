@@ -1,0 +1,40 @@
+<div class="phonePart">
+	<div class="container containerFluid">
+	<h2 class="text-center h2Phone">PHONES</h2>
+
+		<div class="col-md-4" ng-repeat="phone in phones">
+
+			<div class="thumbnail perPhoneHolder">
+				<img class="img-thumbnail" ng-src="img/phoneFolder/{{phone.img}}" />
+				<h4 class="text-center"><i class="fa fa-mobile" aria-hidden="true"></i> {{phone.name}}</h4>
+				
+				<div class="caption">
+					<div ng-hide="showDetails == true">
+						<h5 class="text-center"><strong>Description: </strong></h5>
+					</div>
+				</div>
+
+				<button class="btn btn-xs btn-success" ng-hide="showDetails == true" ng-click="showDetails = !showDetails">Details</button>
+			
+				<div class="details" ng-show="showDetails == true">
+
+					<div class="col-md-6 col-xs-6">
+						<span><strong>OS:</strong> {{phone.details.os}}</span><br />
+						<span><strong>Processor:</strong> {{phone.details.processor}}</span><br />
+						<span><strong>Memory:</strong> {{phone.details.memory}}</span><br />
+					</div>
+
+					<div class="col-md-6 col-xs-6">
+						<span><strong>Camera:</strong> {{phone.details.camera}}</span><br />
+						<span><strong>Display size:</strong> {{phone.details.displaySize}}</span><br />
+						<span><strong>Price:</strong> {{phone.price}}</span><br />
+					</div>		
+
+				</div>
+
+				<button class="btn btn-xs btn-danger" ng-show="showDetails == true" ng-click="showDetails = !showDetails">Close</button>
+			</div>
+	
+		</div>
+	</div>
+</div>
